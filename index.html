@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy birthday to Linh!</title>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fade">
+
+
+        <div class="slide">
+            <img class="hinh-nen" src="http://camelia.axiomthemes.com/wp-content/uploads/2017/10/slider_1_1.jpg" />
+            <div class="text">
+                <h3 class="title">Happy Birthday to Linh</h3>
+                <h1 class="header ">Sức Khỏe!</h1>
+                <img src="http://camelia.axiomthemes.com/wp-content/uploads/2017/10/slider_border_light.png" width="219"
+                    height="13" style="margin: auto;" />
+                <p class="content">Với thanh xuân thật đẹp này, xin chúc em có một sức khỏe tươi mới, đầy ắp tiếng cười
+                    và tâm hồn ấm áp.
+                    <br />
+                    Tặng niềm vui để em mãi ngọt ngào, tặng nụ cười để em mãi rạng rỡ, tặng nhiều điều
+                    tốt lành để em mãi là người thân yêu của anh nhé!
+                </p>
+                <h3 class="title">Chúc em luôn mạnh khỏe!</h3>
+            </div>
+        </div>
+        <div class="slide">
+            <img class="hinh-nen" src="http://camelia.axiomthemes.com/wp-content/uploads/2017/10/slider_1_2.jpg" />
+            <div class="text" style="left: 45%;width: 50%;">
+                <h3 class="title" style="color: rgb(194, 20, 20);">Happy Birthday to Linh</h3>
+                <h1 class="header" style="color: black;">Xinh Đẹp!</h1>
+                <img src="http://camelia.axiomthemes.com/wp-content/uploads/2017/10/slider_border_white.png" width="219"
+                    height="13" style="margin: auto;" />
+                <p class="content" style="color: rgb(102, 100, 110);">Chúc em tuổi mới xinh lại thêm xinh, duyên lại
+                    thêm duyên và yêu lại càng yêu nè!
+                </p>
+                <h3 class="title" style="color: rgb(194, 20, 20);">Chúc em thật nhiều dễ thương!</h3>
+            </div>
+        </div>
+        <div class="slide">
+            <img class="hinh-nen" src="http://camelia.axiomthemes.com/wp-content/uploads/2017/10/slider_1_3.jpg" />
+            <div class="text">
+                <h3 class="title">Happy Birthday to Linh</h3>
+                <h1 class="header ">Học Tốt!</h1>
+                <img src="http://camelia.axiomthemes.com/wp-content/uploads/2017/10/slider_border_light.png" width="219"
+                    height="13" style="margin: auto;" />
+                <p class="content">Chúc em có nhiều kết quả tốt trong học tập, mọi việc đều suôn sẻ, mọi cố gắng sẽ được
+                    đáp đền!
+                    <br />
+                    Cố lên! Cố lên! ^^!
+                </p>
+                <h3 class="title">Chúc em học tốt nhé!</h3>
+            </div>
+        </div>
+        <div class="slide">
+            <canvas id="confetti" style="position: absolute;top: 0;left: 0;"></canvas>
+            <img class="hinh-nen" src="./22tuoi.jpeg" style="opacity: 0.6;" />
+            <div class="text">
+                <h3 class="title" style="color: rgb(194, 20, 20);">Happy Birthday to Linh</h3>
+                <h1 class="header" style="color: rgb(209, 22, 22);">Anh Yêu Em</h1>
+                <img src="http://camelia.axiomthemes.com/wp-content/uploads/2017/10/slider_border_white.png" width="219"
+                    height="13" style="margin: auto;" />
+                <p class="content" style="color: black;">Anh chỉ mong được theo em trên đoạn đường còn lại để có thể dìu
+                    em khi em ngã, hạnh phúc khi được thấy em cười và bên cạnh em khi em cô đơn nhất!
+                </p>
+                <h3 class="title" style="color: rgb(194, 20, 20);font-weight: 900;">Kí tên: Tú tương tư</h3>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./daibang.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.fade').slick({
+                dots: false,
+                infinite: true,
+                speed: 2000,
+                fade: true,
+                cssEase: 'ease-in',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                // autoplay: true,
+                autoplaySpeed: 3000,
+            });
+        });
+
+    </script>
+</body>
+
+</html>
