@@ -1,0 +1,21 @@
+{
+  "name": "birthday_linh",
+  "version": "1.0.0",
+  "homepage": "https://tunguyen92.github.io/happy-birthday-to-Linh-de-thuong/",
+  "description": "",
+  "main": "daibang.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tunguyen92/happy-birthday-to-Linh-de-thuong.git"
+  },
+  "author": "Tu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tunguyen92/happy-birthday-to-Linh-de-thuong/issues"
+  }
+}
